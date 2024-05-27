@@ -214,8 +214,27 @@ input {
 @media (max-width: 920px) {
   .footer {
     padding-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
   }
+
+
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  
+  }
+
+
+
 }
 
 
